@@ -1,4 +1,4 @@
-:imap jj <Esc>
+:imap jk <Esc>
 set tabstop=4
 
 syntax on
