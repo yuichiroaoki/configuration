@@ -5,9 +5,12 @@ Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
+set clipboard=unnamedplus
+set number
+
 inoremap jk <ESC>
 
-    set runtimepath^=~/.vim runtimepath+=~/.vim/after
-    let &packpath = &runtimepath
-    source ~/.vimrc
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+source ~/.vimrc
 
