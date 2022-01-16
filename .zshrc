@@ -76,6 +76,7 @@ git
 zsh-autosuggestions
 zsh-syntax-highlighting
 zsh-vi-mode
+tmux
 )
 
 source $ZSH/oh-my-zsh.sh
