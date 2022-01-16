@@ -16,6 +16,11 @@ let g:airline#extensions#tabline#enabled = 1
 
 nmap <leader>h :bprevious<CR>
 nmap <leader>l :bnext<CR>
+nmap <leader>f :Files<CR>
+nmap <leader>g :GFiles<CR>
+
+nnoremap [q :cprevious<CR>
+nnoremap ]q :cnext<CR>
 
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-b> :NERDTreeToggle<CR>
