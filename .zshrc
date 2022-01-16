@@ -109,7 +109,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll='ls -alF'
 alias la='ls -A'
+alias nv='nvim'
 
 export TERM=xterm-256color
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export DEFAULT_USER="$(whoami)"
+
