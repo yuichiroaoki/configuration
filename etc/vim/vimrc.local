@@ -1,7 +1,5 @@
 :imap jk <Esc>
-set tabstop=4
 
-syntax on
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -12,3 +10,7 @@ set ruler
 highlight Comment ctermfg=green
 
 set clipboard=unnamedplus
+
+set background=dark 
+syntax on
+
