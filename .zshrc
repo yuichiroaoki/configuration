@@ -109,7 +109,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll='ls -alF'
 alias la='ls -A'
-alias nv='nvim'
+alias nv='~/nvim.appimage'
+alias ew='exit'
 
 export TERM=xterm-256color
 
