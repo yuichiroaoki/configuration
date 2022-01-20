@@ -111,6 +111,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias nv='~/nvim.appimage'
 alias ew='exit'
+alias cx='clear'
 
 export TERM=xterm-256color
 

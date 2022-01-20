@@ -93,6 +93,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias nv='~/nvim.appimage'
 alias ew='exit'
+alias cx='clear'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
