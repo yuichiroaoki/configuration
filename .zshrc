@@ -112,6 +112,9 @@ alias la='ls -A'
 alias nv='~/nvim.appimage'
 alias ew='exit'
 alias cx='clear'
+alias chro='chromium --incognito'
+alias gchro='google-chrome --incognito'
+alias fire='firefox --private'
 
 export TERM=xterm-256color
 
