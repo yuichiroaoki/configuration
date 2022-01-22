@@ -16,6 +16,9 @@ let g:airline#extensions#tabline#enabled = 1
 colorscheme zellner
 set background=dark
 
+set tabstop=4
+set shiftwidth=4
+
 nnoremap [q :cprevious<CR>
 nnoremap ]q :cnext<CR>
 
