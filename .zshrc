@@ -115,6 +115,7 @@ alias cx='clear'
 alias chro='chromium --incognito'
 alias gchro='google-chrome --incognito'
 alias fire='firefox --private'
+alias brav='brave-browser --incognito'
 
 export TERM=xterm-256color
 
