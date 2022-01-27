@@ -9,6 +9,11 @@ sudo apt-get install -y zsh ;
 # install cargo
 curl https://sh.rustup.rs -sSf | sh
 
+
+# vim plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim ;
+
 # oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ;
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions ;
@@ -29,15 +34,13 @@ curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh ;
 sudo bash nodesource_setup.sh
 sudo apt-get install -y nodejs ;
 
-npm install -g yarn ;
+sudo npm install -g yarn ;
 
 
 # copy config files
 cp ~/configuration/.zshrc ~/ ;
 cp ~/configuration/.bashrc ~/ ;
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim ;
 
 sudo cp  ./etc/vim/vimrc.*  /etc/vim/  ;
 mkdir -p  ~/.config/nvim && cp ./init.vim ~/.config/nvim/init.vim ;
