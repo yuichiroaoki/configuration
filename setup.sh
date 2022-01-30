@@ -28,6 +28,9 @@ mv nvim.appimage ~/  ;
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' ;
 
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
 # install nodejs
 cd ~
 curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh ;
