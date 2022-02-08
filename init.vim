@@ -3,6 +3,8 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'github/copilot.vim'
 
 call plug#end()
@@ -13,7 +15,7 @@ nnoremap [d :bd<CR>
 nnoremap <C-p> :GFiles<CR>
 
 let g:airline#extensions#tabline#enabled = 1
-colorscheme zellner
+colorscheme slate
 set background=dark
 
 set tabstop=4
@@ -24,12 +26,9 @@ nnoremap ]q :cnext<CR>
 
 nnoremap <C-b> :NERDTreeToggle<CR>
 
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
+
 set number
 
 inoremap jk <ESC>
-
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath = &runtimepath
-source ~/.vimrc
 

@@ -5,6 +5,7 @@ sudo apt-get update ;
 sudo apt-get install -y tmux ;
 sudo apt-get install -y vim ;
 sudo apt-get install -y zsh ;
+sudo apt-get install -y xclip ;
 
 # install cargo
 curl https://sh.rustup.rs -sSf | sh
