@@ -33,15 +33,13 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 
-cd ~ ;
-
 # copy config files
 cp ~/configuration/.zshrc ~/ ;
 cp ~/configuration/.bashrc ~/ ;
 
 
-sudo cp  ./etc/vim/vimrc.*  /etc/vim/  ;
-mkdir -p  ~/.config/nvim && cp ./init.vim ~/.config/nvim/init.vim ;
-cp ./.tmux.conf ~/.tmux.conf  ;
-cp ./.vimrc ~/.vimrc  ;
+sudo cp  ~/configuration/etc/vim/vimrc.*  /etc/vim/  ;
+mkdir -p  ~/.config/nvim && cp ~/configuration/init.vim ~/.config/nvim/init.vim ;
+cp ~/configuration/.tmux.conf ~/.tmux.conf  ;
+cp ~/configuration/.vimrc ~/.vimrc  ;
 
