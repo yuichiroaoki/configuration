@@ -12,4 +12,4 @@ cp ~/Documents/configuration/.tmux.conf ~/
 
 # imwheel
 cp ~/Documents/configuration/.imwheelrc ~/
-sudo cp  ~/Documents/configuration/etc/imwheel/startup.conf  /etc/X11/imwheel/
+sudo cp  ~/Documents/configuration/imwheel/startup.conf  /etc/X11/imwheel/
