@@ -4,7 +4,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'github/copilot.vim'
+Plug 'jacoborus/tender.vim'
 
 call plug#end()
 
@@ -14,7 +14,9 @@ nnoremap [d :bd<CR>
 nnoremap <C-p> :GFiles<CR>
 
 let g:airline#extensions#tabline#enabled = 1
-colorscheme slate
+
+syntax enable
+colorscheme tender
 set background=dark
 
 set tabstop=4
