@@ -10,10 +10,14 @@ sudo apt install -y libfuse2
 # install cargo
 curl https://sh.rustup.rs -sSf | sh
 
+# install ripgrep
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
+sudo dpkg -i ripgrep_13.0.0_amd64.deb
 
 # vim plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 
 # oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y

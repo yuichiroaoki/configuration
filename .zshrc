@@ -122,3 +122,4 @@ export TERM=xterm-256color
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export DEFAULT_USER="$(whoami)"
 
+export PATH=$PATH:/usr/local/go/bin
