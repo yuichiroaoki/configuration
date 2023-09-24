@@ -18,15 +18,12 @@ let g:airline#extensions#tabline#enabled = 1
 
 syntax enable
 colorscheme tender
-set background=dark
 
 set tabstop=4
 set shiftwidth=4
 
 nnoremap [q :cprevious<CR>
 nnoremap ]q :cnext<CR>
-
-nnoremap <C-b> :NERDTreeToggle<CR>
 
 set clipboard+=unnamedplus
 

@@ -8,7 +8,7 @@ export ZSH="/home/$(whoami)/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster" 
+ZSH_THEME="bira"
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 
 # Set list of themes to pick from when loading at random

@@ -6,6 +6,13 @@ sudo apt-get install -y tmux
 sudo apt-get install -y zsh
 sudo apt-get install -y xclip
 
+# install cargo
+curl https://sh.rustup.rs -sSf | sh
+
+# install ripgrep
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
+sudo dpkg -i ripgrep_13.0.0_amd64.deb
+
 # vim plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -22,7 +29,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 
 # copy config files
-cp ~/configuration/.zshrc ~/
 cp ~/configuration/.bashrc ~/
 
 
